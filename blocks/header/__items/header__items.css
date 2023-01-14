@@ -1,0 +1,21 @@
+.header__items {
+  position: relative;
+  margin-left: 32px;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 12px;
+  letter-spacing: 0.105em;
+}
+
+
+.header__items:hover:after {
+  position: absolute;
+  content: '';
+  height: 2px;
+  bottom: -11px;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  width: 25%;
+  background: #49EFF0;
+}

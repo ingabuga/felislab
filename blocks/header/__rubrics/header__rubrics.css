@@ -1,0 +1,6 @@
+.header__rubrics {
+  display: flex;
+  padding:0;
+  list-style: none;
+  margin: 0;
+}

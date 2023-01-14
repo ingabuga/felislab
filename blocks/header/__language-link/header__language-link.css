@@ -1,0 +1,19 @@
+.header__language-link {
+  display: flex;
+  background-color: black;
+  color: #57EAFF;
+  min-width: 32px;
+  min-height: 32px;
+  border-radius: 50%;
+  font-size: 12px;
+  text-transform: uppercase;
+  text-decoration: none;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.header__language-link:hover {
+  background-color: rgb(58, 21, 21);
+}

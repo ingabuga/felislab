@@ -1,0 +1,9 @@
+.cover {
+  display: flex;
+  position: relative;
+  background: no-repeat top left url(../../images/header.jpg);
+  background-size: 130%;
+  background-position: center;
+  height: 120vh;
+  font-family: 'TT Norms Pro', Arial, sans-serif;
+}
