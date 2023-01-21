@@ -1,6 +1,7 @@
 .header__button {
   border: none;
   min-width: 180px;
+  height: 32px;
   border-radius: 23px;
   padding: 8px 24px;
   text-transform: uppercase;
@@ -9,9 +10,10 @@
   font-weight: 500;
   letter-spacing: 0.105em;
   background: linear-gradient(180deg, #57EAFF 0%, #1FFFC6 100%);
+  grid-area: button;
 }
 
 .header__button:hover {
-background: black;
-color: #57EAFF;
+background: #847d95;
+color: #f0f0f0;
 }
