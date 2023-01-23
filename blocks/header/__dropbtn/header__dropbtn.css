@@ -9,14 +9,14 @@
   text-transform: uppercase;
   border: none;
   background-color: black;
-  font-family: TTNormsPro, Arial, sans-serif;
+  font-family: 'TT Norms Pro', Arial, sans-serif;
 }
 
 .header__dropdown-content {
   display: none;
   position: absolute;
   text-transform: uppercase;
-  top: 25px;
+  top: 30px;
   /*right: -2px;*/
   font-size: 12px;
   border-radius: 16px;
