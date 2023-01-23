@@ -1,0 +1,32 @@
+.about {
+  display: flex;
+  position:relative;
+  width: 100%;
+  height: 100%;
+  background: #100726;
+  background-image: url(../../images/felis-blur.jpeg);
+  background-repeat: repeat;
+  background-position: center;
+  object-fit: contain;
+  padding: 100px 0;
+}
+
+.about:before {
+content: "";
+position: absolute;
+top: 0;
+right: 0;
+height: 100%;
+width: 100%;
+background-image: linear-gradient(180deg, rgba(16, 7, 38, 0) 80%, #100726 95%);
+}
+
+.about:after {
+content: "";
+position: absolute;
+top: 0;
+left: 0;
+height: 100%;
+width: 100%;
+background-image: linear-gradient(0deg, rgba(16, 7, 38, 0) 80%, #100726 95%);
+}

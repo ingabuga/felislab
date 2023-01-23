@@ -36,3 +36,5 @@
 @import url(../blocks/products/__text/products__text.css);
 @import url(../blocks/products/__button/products__button.css);
 @import url(../blocks/products/__image/products__image.css);
+
+@import url(../blocks/about/about.css);
