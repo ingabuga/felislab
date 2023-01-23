@@ -1,0 +1,79 @@
+.products__right {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: min-content min-content min-content min-content;
+  column-gap: 20px;
+  margin: 0;
+  padding-bottom: 150px;
+  grid-template-areas:
+  "title image"
+  "lead image"
+  "text image"
+  "button image"
+}
+
+.products__right-two {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  grid-template-rows: min-content min-content min-content min-content;
+  column-gap: 20px;
+  padding-bottom: 150px;
+  grid-template-areas:
+  "title image-first image-second"
+  "lead image-first image-second"
+  "text image-first image-second"
+  "button image-first image-second"
+}
+
+@media screen and (max-width: 800px) {
+  .products__right {
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: min-content min-content min-content min-content min-content;
+      grid-template-areas:
+      "title title"
+      "lead image"
+      "text image"
+      "button image"
+  }
+
+  .products__right-two {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-rows: min-content min-content min-content min-content;
+    column-gap: 20px;
+    padding-bottom: 150px;
+    grid-template-areas:
+    "title title title"
+    "lead image-first image-second"
+    "text image-first image-second"
+    "button image-first image-second"
+}
+
+}
+
+@media screen and (max-width: 450px) {
+  .products__right {
+      grid-template-columns: 1fr;
+      grid-template-rows: min-content min-content min-content min-content min-content;
+      grid-template-areas:
+      "title"
+      "image"
+      "lead"
+      "text"
+      "button"
+  }
+
+  .products__right-two {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: min-content min-content min-content min-content min-content;
+      column-gap: 20px;
+      padding-bottom: 150px;
+      grid-template-areas:
+      "title title"
+      "image-first image-second"
+      "lead lead"
+      "text text"
+      "button button"
+  }
+}

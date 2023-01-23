@@ -2,6 +2,8 @@
   max-width: 417px;
   align-self: center;
   grid-area: logo;
+  backdrop-filter: blur(50px);
+  -webkit-backdrop-filter: blur(50px);
 }
 
 

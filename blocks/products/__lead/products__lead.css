@@ -1,0 +1,11 @@
+.products__lead {
+  grid-area: lead;
+  font-family: TTNormsPro, Arial, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 0.03em;
+  line-height: 22px;
+  padding-bottom: 20px;
+  color: white;
+  margin: 0;
+}

@@ -1,0 +1,17 @@
+.products__items {
+  width: 1180px;
+  margin: 0 auto;
+}
+
+
+@media screen and (max-width: 1200px) {
+  .products__items {
+      width: 84%;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .products__items {
+      width: 90%;
+  }
+}

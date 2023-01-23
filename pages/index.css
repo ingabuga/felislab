@@ -25,3 +25,14 @@
 @import url(../blocks/company/__block/company__block.css);
 @import url(../blocks/company/__text/company__text.css);
 @import url(../blocks/company/__title/company__title.css);
+
+@import url(../blocks/products/products.css);
+@import url(../blocks/products/__items/products__items.css);
+@import url(../blocks/products/__title/products__title.css);
+@import url(../blocks/products/__right/products__right.css);
+@import url(../blocks/products/__left/products__left.css);
+@import url(../blocks/products/__subtitle/products__subtitke.css);
+@import url(../blocks/products/__lead/products__lead.css);
+@import url(../blocks/products/__text/products__text.css);
+@import url(../blocks/products/__button/products__button.css);
+@import url(../blocks/products/__image/products__image.css);

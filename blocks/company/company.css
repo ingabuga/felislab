@@ -5,6 +5,7 @@
     background-position: 100% 50%;
     background-repeat: no-repeat;
     background-size: 800px;
+    scroll-margin-top: 100px;
 }
 
 
@@ -12,6 +13,7 @@
 
   .company {
      background-position: 300px 50%;
+     scroll-margin-top: 100px;
   }
 
 }
@@ -20,6 +22,7 @@
 
   .company {
      background-position: 140px 50%;
+     scroll-margin-top: 50px;
   }
 
 }
@@ -27,6 +30,7 @@
 @media screen and (max-width: 400px) {
   .company {
   background-position: 60px 50%;
+  scroll-margin-top: 190px;
   }
 
 }

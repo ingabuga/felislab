@@ -3,5 +3,9 @@
   font-family: 'TT Norms Pro', Arial, sans-serif;
   color: #DADADA;
   background-color: #100726;
+}
+
+html {
   scroll-behavior: smooth;
+
 }

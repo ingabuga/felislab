@@ -1,0 +1,11 @@
+.products__text {
+  grid-area: text;
+  font-family: 'TT Norms Pro', Arial, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 0.03em;
+  line-height: 22px;
+  padding-bottom: 49px;
+  color: #AAACC0;
+  margin: 0;
+}

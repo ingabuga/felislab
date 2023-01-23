@@ -1,0 +1,11 @@
+.products__title {
+  font-family: 'TT Norms Pro', Arial, sans-serif;
+  font-size: 48px;
+  font-weight: 500;
+  letter-spacing: 0.05em;
+  line-height: 58px;
+  padding: 0 0 144px 0;
+  text-transform: uppercase;
+  color: white;
+  margin:0
+}
