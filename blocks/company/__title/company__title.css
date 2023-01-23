@@ -1,0 +1,21 @@
+.company__title {
+  font-family: 'TT Norms Pro', Arial, sans-serif;
+  font-size: 36px;
+  line-height: 120%;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: white;
+  width: 60%;
+  font-weight: 500;
+  padding-bottom: 50px;
+  margin: 0;
+}
+
+@media screen and (max-width: 400px) {
+  .company__title {
+  font-size: 24px;
+  width: 100%;
+  padding-bottom: 20px;
+  }
+
+}

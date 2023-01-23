@@ -1,0 +1,32 @@
+.company {
+    width: 100%;
+    background: #100726;
+    background-image: url(../../images/radial2.png);
+    background-position: 100% 50%;
+    background-repeat: no-repeat;
+    background-size: 800px;
+}
+
+
+@media screen and (max-width: 900px) {
+
+  .company {
+     background-position: 300px 50%;
+  }
+
+}
+
+@media screen and (max-width: 600px) {
+
+  .company {
+     background-position: 140px 50%;
+  }
+
+}
+
+@media screen and (max-width: 400px) {
+  .company {
+  background-position: 60px 50%;
+  }
+
+}

@@ -1,0 +1,28 @@
+.company__block {
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 150px 0 150px 0;
+}
+
+@media screen and (max-width: 1200px) {
+  .company__block {
+      width: 90%;
+      padding: 150px 0 150px 0;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .company__block {
+      padding: 150px 0 150px 0;
+      background-size: 400px;
+  }
+
+}
+
+@media screen and (max-width: 400px) {
+
+  .company__block {
+  padding: 100px 0 100px 0;
+}
+
+}
