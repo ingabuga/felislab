@@ -1,0 +1,19 @@
+.header__dropdown {
+  position: relative;
+  display: inline-block;
+  grid-area: language;
+}
+
+@media screen and (max-width: 1200px) {
+
+  .header__dropdown {
+      justify-self: flex-end;
+  }
+
+}
+
+.header__dropdown:hover .header__dropdown-content {display: block;}
+
+.header__dropdown:hover .header__dropbtn {background-color: #847d95; color: #f0f0f0;}
+
+.header__dropdown-content a:hover {color: white !important; font-weight: 500;}

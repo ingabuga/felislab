@@ -1,13 +1,15 @@
 .header__button {
+  font-family: 'TT Norms Pro', Arial, sans-serif;
   border: none;
-  min-width: 180px;
-  height: 32px;
   border-radius: 23px;
   padding: 8px 24px;
   text-transform: uppercase;
+  text-decoration: none;
   font-size: 14px;
   line-height: 17px;
   font-weight: 500;
+  color: black !important;
+  align-self: center;
   letter-spacing: 0.105em;
   background: linear-gradient(180deg, #57EAFF 0%, #1FFFC6 100%);
   grid-area: button;
@@ -16,4 +18,19 @@
 .header__button:hover {
 background: #847d95;
 color: #f0f0f0;
+}
+
+@media screen and (max-width: 1200px) {
+
+  .header__button {
+      justify-self: flex-end;
+  }
+
+}
+
+@media screen and (max-width: 600px) {
+
+  .header__button {
+      display: none;
+  }
 }

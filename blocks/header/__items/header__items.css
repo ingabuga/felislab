@@ -1,11 +1,13 @@
 .header__items {
   position: relative;
-  margin-left: 10px;
+  margin-left: 32px;
   text-transform: uppercase;
-  font-weight: 400;
+  text-decoration: none;
+  font-weight: 500;
   font-size: 12px;
   letter-spacing: 0.105em;
   align-self: center;
+  color: white !important;
 }
 
 
@@ -19,4 +21,21 @@
   right: 0;
   width: 25%;
   background: #49EFF0;
+}
+
+
+@media screen and (max-width: 1200px) {
+
+  .header__items {
+      margin-left: 0px;
+  }
+
+}
+
+
+@media screen and (max-width: 450px) {
+  .header__items {
+      font-size: 10px;
+  }
+
 }

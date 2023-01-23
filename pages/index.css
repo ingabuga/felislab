@@ -10,6 +10,9 @@
 @import url(../blocks/header/__rubrics/header__rubrics.css);
 @import url(../blocks/header/__items/header__items.css);
 @import url(../blocks/header/__menu/header__menu.css);
+@import url(../blocks/header/__block/header__block.css);
+@import url(../blocks/header/__dropbtn/header__dropbtn.css);
+@import url(../blocks/header/__dropdown/header__dropdown.css);
 
 @import url(../blocks/cover/cover.css);
 @import url(../blocks/cover/__image/cover__image.css);

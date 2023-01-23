@@ -7,21 +7,28 @@
       <link rel="stylesheet" href="./pages/index.css">
     </head>
     <body class="root">
-      <header class="header">
-        <div class="header__block">
-            <img class="header__logo" src="./images/felis-logo.svg" alt="Логотип компании Felislab">
-            <nav class="header__nav">
-              <ul class="header__rubrics">
-                <li class="header__items">Компания</li>
-                <li class="header__items">Продукты</li>
-                <li class="header__items">Контакты</li>
-              </ul>
-            </nav>
-              <div class="header__language-link" href="#">Ru</div>
-              <!-- <a class="header__languge-link" href="./en">En</a> -->
-            <button type="button" class="header__button">Написать нам</button>
-          </div>
-      </header>
+      <div class="header">
+              <div class="header__block">
+                  <img class="header__logo" src="./images/felis-logo.svg" alt="Логотип компании Felislab">
+                  <div class="header__nav">
+                    <div class="header__rubrics">
+                      <a class="header__items" href="#company">Компания</a>
+                      <a class="header__items" href="#products">Продукты</a>
+                      <a class="header__items" href="#contacts">Контакты</a>
+                    </div>
+                  </div>
+                  <div class="header__dropdown">
+                      <button class="header__dropbtn">Ru</button>
+                          <div class="header__dropdown-content">
+                              <a href="./index.html">Ru</a>
+                              <a href="/en">En</a>
+                          </div>
+                  </div>
+                  <!--<div class="header__language-link" href="#">Ru</div>-->
+                    <!-- <a class="header__languge-link" href="./en">En</a> -->
+                  <a type="button" class="header__button" href="#popup:infoblock">Написать нам</a>
+                </div>
+      </div>
 
       <section class="cover">
         <div class="cover__header">
