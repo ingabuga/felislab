@@ -1,0 +1,15 @@
+.about__block {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(4, min-content);
+  width: 1180px;
+  margin: auto auto;
+  align-items:center;
+  z-index: 1;
+}
+
+@media screen and (max-width:1200px) {
+.about__block {
+  width: 90%;
+}
+}

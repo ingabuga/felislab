@@ -1,0 +1,17 @@
+.about__title {
+  font-family: 'TT Norms Pro', Arial, sans-serif;
+  font-size:48px;
+  line-height: 58px;
+  color: white;
+  font-weight: 500;
+  padding-bottom: 76px;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 0;
+}
+
+@media screen and (max-width:450px) {
+.about__title {
+  font-size:36px;
+}
+}

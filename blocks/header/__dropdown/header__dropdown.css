@@ -2,6 +2,7 @@
   position: relative;
   display: inline-block;
   grid-area: language;
+  align-self: center;
 }
 
 @media screen and (max-width: 1200px) {
