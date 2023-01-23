@@ -1,9 +1,12 @@
 .cover {
   position: relative;
-  background: no-repeat top left url(../../images/header.jpg);
+  background-image: url(../../images/header.jpg);
+  /* background-size: cover; */
   background-size: 130%;
   background-position: center;
-  height: 120vh;
+  background-repeat: no-repeat;
+  object-fit: contain;
+  height: 100vh;
 }
 
 
@@ -15,4 +18,18 @@
   height: 100%;
   width: 100%;
   background-image: linear-gradient(180deg, rgba(16, 7, 38, 0) 10%, #100726 95%);
+}
+
+@media screen and (max-width: 1920px) {
+  .cover {
+    background-size: cover;
+  }
+}
+
+
+@media screen and (max-width: 450px) {
+  .cover {
+    background-size: cover;
+    background-position: 35% 50%;
+  }
 }

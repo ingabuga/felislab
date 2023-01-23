@@ -1,5 +1,20 @@
 .cover__header {
-  margin: auto;
-  max-width: 1100px;
-  z-index: 1;
+max-width: 1180px;
+position: relative;
+margin: 0 auto;
+padding: 37vh 0 0 0;
+z-index: 1;
+}
+
+
+@media screen and (max-width: 1200px) {
+  .cover__header {
+     max-width: 84%;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .cover__header {
+     max-width: 90%;
+  }
 }

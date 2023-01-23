@@ -1,8 +1,7 @@
 .root {
-  /* min-width: 1100px; */
-  /* max-width: 1180px; */
   margin: 0 auto;
   font-family: 'TT Norms Pro', Arial, sans-serif;
   color: #DADADA;
   background-color: #100726;
+  scroll-behavior: smooth;
 }
