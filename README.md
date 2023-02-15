@@ -1,3 +1,3 @@
-# Лендинг одной скромной компании
+# Лендинг компании Felislabs
 
-https://ingabuga.github.io/felislab/
+https://felislabs.ai
